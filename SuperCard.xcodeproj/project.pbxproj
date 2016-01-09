@@ -15,6 +15,7 @@
 		7E20C68C1C41581400F9A863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E20C68A1C41581400F9A863 /* LaunchScreen.storyboard */; };
 		7E20C6971C41581500F9A863 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20C6961C41581500F9A863 /* SuperCardTests.m */; };
 		7E20C6A21C41581500F9A863 /* SuperCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20C6A11C41581500F9A863 /* SuperCardUITests.m */; };
+		7E20C6B11C41589F00F9A863 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20C6B01C41589F00F9A863 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E20C69D1C41581500F9A863 /* SuperCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E20C6A11C41581500F9A863 /* SuperCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardUITests.m; sourceTree = "<group>"; };
 		7E20C6A31C41581500F9A863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E20C6AF1C41589F00F9A863 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		7E20C6B01C41589F00F9A863 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,11 @@
 		7E20C67B1C41581400F9A863 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				7E20C67F1C41581400F9A863 /* AppDelegate.h */,
-				7E20C6801C41581400F9A863 /* AppDelegate.m */,
 				7E20C6821C41581400F9A863 /* ViewController.h */,
 				7E20C6831C41581400F9A863 /* ViewController.m */,
 				7E20C6851C41581400F9A863 /* Main.storyboard */,
+				7E20C6AF1C41589F00F9A863 /* PlayingCardView.h */,
+				7E20C6B01C41589F00F9A863 /* PlayingCardView.m */,
 				7E20C6881C41581400F9A863 /* Assets.xcassets */,
 				7E20C68A1C41581400F9A863 /* LaunchScreen.storyboard */,
 				7E20C68D1C41581400F9A863 /* Info.plist */,
@@ -117,6 +120,8 @@
 		7E20C67C1C41581400F9A863 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E20C67F1C41581400F9A863 /* AppDelegate.h */,
+				7E20C6801C41581400F9A863 /* AppDelegate.m */,
 				7E20C67D1C41581400F9A863 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					7E20C6781C41581400F9A863 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P9KPHJJ6R4;
 					};
 					7E20C6911C41581500F9A863 = {
 						CreatedOnToolsVersion = 7.2;
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E20C6841C41581400F9A863 /* ViewController.m in Sources */,
+				7E20C6B11C41589F00F9A863 /* PlayingCardView.m in Sources */,
 				7E20C6811C41581400F9A863 /* AppDelegate.m in Sources */,
 				7E20C67E1C41581400F9A863 /* main.m in Sources */,
 			);
@@ -411,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SuperCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wei.SuperCard;
@@ -422,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SuperCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wei.SuperCard;
